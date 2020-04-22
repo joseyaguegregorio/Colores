@@ -13,18 +13,18 @@ struct VistaAnimales: View {
     var body: some View {
         VStack {
             HStack{
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "rojo", nombreIngles: "rojoi", imagenFondo: "lobo")
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "rojo", nombreIngles: "rojoi", imagenFondo: "rana")
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "lobo", nombreIngles: "loboi", imagenFondo: "lobo")
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "rana", nombreIngles: "ranai", imagenFondo: "rana")
 
             }
             HStack{
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "rojo", nombreIngles: "rojoi", imagenFondo: "cebra")
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "rojo", nombreIngles: "rojoi", imagenFondo: "gorila")
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "cebra", nombreIngles: "cebrai", imagenFondo: "cebra")
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "gorila", nombreIngles: "gorilai", imagenFondo: "gorila")
 
             }
             HStack{
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "rojo", nombreIngles: "rojoi", imagenFondo: "pinguino")
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "rojo", nombreIngles: "rojoi", imagenFondo: "elefante")
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "pinguino", nombreIngles: "pinguinoi", imagenFondo: "pinguino")
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "elefante", nombreIngles: "elefantei", imagenFondo: "elefante")
 
             }
 

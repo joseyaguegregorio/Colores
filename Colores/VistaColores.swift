@@ -19,7 +19,7 @@ struct VistaColores: View {
             }
             HStack{
                 PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: "verde", nombreIngles: "verdei", colorFondo: Color.green)
-                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: "amarillo", nombreIngles: "amarilloi", colorFondo: Color.yellow)
+                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: "marron", nombreIngles: "marroni", colorFondo: Color.yellow)
 
             }
             HStack{

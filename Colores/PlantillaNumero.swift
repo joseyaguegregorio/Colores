@@ -14,23 +14,27 @@ struct PlantillaNumero: View {
         var nombreEspanol: String
         var nombreIngles: String
     var colorFondo: Color = Color.gray
-    var opacidad: Double = 0.2
+    var opacidad: Double = 0.1
     var numero: String
 
         var body: some View {
             Button(action: {
                 //Cada click cambiaria de idioma
     //            self.idiomaPulsado.toggle()
-                playSound(sound: self.idiomaPulsado ? self.nombreEspanol : self.nombreIngles, type: "m4a")
+                playSound(sound: self.idiomaPulsado ? self.nombreEspanol : self.nombreIngles, type: "wav")
 
 
 
             }) {
                 ZStack{
-                    Circle().fill(colorFondo).opacity(opacidad)
+                    Circle().fill(colorFondo).opacity(opacidad).scaledToFit()
                     Text(numero).font(.system(size: 70)).foregroundColor(.black)
 
-                }.padding(.bottom,10)
+
+                    }
+                .frame(width: 120, height: 120)
+                 .padding(.horizontal, -2)
+
 
             }
 

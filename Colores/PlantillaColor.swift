@@ -20,13 +20,13 @@ struct PlantillaColor: View {
         Button(action: {
             //Cada click cambiaria de idioma
 //            self.idiomaPulsado.toggle()
-            playSound(sound: self.idiomaPulsado ? self.nombreEspanol : self.nombreIngles, type: "m4a")
+            playSound(sound: self.idiomaPulsado ? self.nombreEspanol : self.nombreIngles, type: "wav")
 
 
 
         }) {
             ZStack{
-                Circle().fill(colorFondo).opacity(opacidad)
+                Circle().fill(colorFondo).opacity(opacidad).frame(width: 180, height: 190)
             }
 
         }

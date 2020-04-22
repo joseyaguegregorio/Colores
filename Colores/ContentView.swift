@@ -13,6 +13,9 @@ struct ContentView: View {
 
     @State private var selection = 0
     @State var idiomaPulsadoT: Bool = true
+    @State var rotation: Bool = true
+    
+
     
     var body: some View {
         TabView(selection: $selection){
@@ -21,16 +24,39 @@ struct ContentView: View {
                 VistaColores(idiomaPulsado: $idiomaPulsadoT)
 
 
-                
-
                 HStack{
+//                    if idiomaPulsadoT==false{
+//                        Spacer().animation(.easeInOut(duration: <#T##Double#>))
+//                    }
 
                     Button(action: {
                         self.idiomaPulsadoT.toggle()
+                        playSound(sound: self.idiomaPulsadoT ? "espanol" : "ingles", type: "wav")
+
+
+
                     }) {
-                        Image(systemName: "airplane").font(.system(size:50)).offset(x: 0, y: -1)
-                            .foregroundColor(Color.black).opacity(0.7)
+                        Image(systemName: "airplane")
+                            .rotationEffect(.degrees(idiomaPulsadoT ? 0 : 180))
+                            .animation(.easeInOut(duration: 1.0))
+                            .font(.system(size:50))
+                            .offset(x: idiomaPulsadoT ? -140 : 140)
+                            .offset(x: 0, y: -19)
+                            //Lo corrijo por el desfase del avion en esta vista
+                            .offset(x: idiomaPulsadoT ? 4 : 0, y: 8)
+                            .padding(.horizontal,idiomaPulsadoT ? 170 : 170)
+                            .padding(.top, 40)
+                            .foregroundColor(Color.black)
+                            .opacity(0.7)
+//                            .background(Color.red)
+
+
+
                     }
+                    if idiomaPulsadoT==true{
+                        Spacer()
+                    }
+
                 }
                 Spacer()
 
@@ -39,7 +65,7 @@ struct ContentView: View {
                 VStack {
                     Image(systemName: "paintbrush.fill")
 
-                    Text("Colors")
+                    Text(idiomaPulsadoT ? "Colores" : "Colors")
                 }
             }.tag(0)
 
@@ -50,13 +76,27 @@ struct ContentView: View {
             VStack{
 
                 VistaNumeros(idiomaPulsado: $idiomaPulsadoT)
+                    .offset(x: 0, y: 60)
+                   
+
                 HStack{
 
                     Button(action: {
                         self.idiomaPulsadoT.toggle()
+                        playSound(sound: self.idiomaPulsadoT ? "espanol" : "ingles", type: "wav")
                     }) {
-                        Image(systemName: "airplane").font(.system(size:50)).offset(x: 0, y: -19)
+                        Image(systemName: "airplane")
+                            .rotationEffect(.degrees(idiomaPulsadoT ? 0 : 180))
+                            .animation(.easeInOut(duration: 1.0))
+                            .font(.system(size:50))
+                            .offset(x: idiomaPulsadoT ? -140 : 140)
+                            .offset(x: 0, y: -19)
+                            .padding(.horizontal,idiomaPulsadoT ? 170 : 170)
+                            .padding(.top, 40)
                             .foregroundColor(Color.black)
+                            .opacity(0.7)
+//                            .background(Color.red)
+
                     }
                 }
 
@@ -70,7 +110,7 @@ struct ContentView: View {
                 .tabItem {
                     VStack {
                         Image(systemName: "textformat.123")
-                        Text("Numbers")
+                        Text(idiomaPulsadoT ? "Numeros" : "Numbers")
                     }
             }
             .tag(1)
@@ -82,9 +122,19 @@ struct ContentView: View {
 
                     Button(action: {
                         self.idiomaPulsadoT.toggle()
+                        playSound(sound: self.idiomaPulsadoT ? "espanol" : "ingles", type: "wav")
                     }) {
-                        Image(systemName: "airplane").font(.system(size:50)).offset(x: 0, y: -19)
+                        Image(systemName: "airplane")
+                        .rotationEffect(.degrees(idiomaPulsadoT ? 0 : 180))
+                        .animation(.easeInOut(duration: 1.0))
+                        .font(.system(size:50))
+                        .offset(x: idiomaPulsadoT ? -140 : 140)
+                        .offset(x: 0, y: -19)
+                        .padding(.horizontal,idiomaPulsadoT ? 170 : 170)
+                        .padding(.top, 40)
                         .foregroundColor(Color.black)
+                        .opacity(0.7)
+//                        .background(Color.red)
                     }
                 }
 
@@ -94,11 +144,51 @@ struct ContentView: View {
                 .tabItem {
                     VStack {
                         Image(systemName: "tortoise.fill")
-                        Text("Animals")
+                        Text(idiomaPulsadoT ? "Animales" : "Animals")
                     }
             }
             .tag(2)
+
+//            VStack{
+//                Spacer()
+////                VistaVocales(idiomaPulsado: $idiomaPulsadoT)
+//                Spacer()
+//                HStack{
+//
+//                    Button(action: {
+//                        self.idiomaPulsadoT.toggle()
+//                    }) {
+//                        Image(systemName: "airplane")
+//                        .rotationEffect(.degrees(idiomaPulsadoT ? 0 : 180))
+//                        .animation(.easeInOut(duration: 1.0))
+//                        .font(.system(size:50))
+//
+//                        .offset(x: 0, y: -19)
+//                        .padding(.horizontal,idiomaPulsadoT ? 170 : 170)
+//                        .padding(.top, 40)
+//                        .foregroundColor(Color.black)
+//                        .opacity(0.7)
+////                        .background(Color.red)
+//
+//                    }
+//                }.rotationEffect(.degrees(idiomaPulsadoT ? 0 : -180))
+//                .animation(.easeInOut(duration: 1.0))
+//                .offset(x: idiomaPulsadoT ? -140 : 140)
+//
+//
+//            }.rotationEffect(.degrees(idiomaPulsadoT ? 0 : 180))
+//            .animation(.easeInOut(duration: 1.0))
+//
+//                .font(.title)
+//                .tabItem {
+//                    VStack {
+//                        Image(systemName: "textformat.abc")
+//                        Text(idiomaPulsadoT ? "Vocales" : "Vowels")
+//                    }
+//            }
+//            .tag(3)
         }.accentColor(.black)
+        
 
     }
 }
@@ -108,6 +198,8 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
 
 //
 //import SwiftUI

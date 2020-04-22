@@ -19,9 +19,10 @@ struct PlantillaAnimal: View {
             Button(action: {
                 //Cada click cambiaria de idioma
     //            self.idiomaPulsado.toggle()
-                playSound(sound: self.idiomaPulsado ? self.nombreEspanol : self.nombreIngles, type: "m4a")
+                playSound(sound: self.idiomaPulsado ? self.nombreEspanol : self.nombreIngles, type: "wav")
             }) {
-                Image(imagenFondo).renderingMode(Image.TemplateRenderingMode?.init(Image.TemplateRenderingMode.original)).resizable().scaledToFit().clipShape(Circle()).padding(.bottom,35).padding(.top,15)
+                Image(imagenFondo).renderingMode(Image.TemplateRenderingMode?.init(Image.TemplateRenderingMode.original)).resizable().scaledToFit().clipShape(Circle())
+                    .frame(width: 180, height: 180)
             }
 
 
