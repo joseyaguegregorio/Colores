@@ -8,29 +8,57 @@
 
 import SwiftUI
 
+struct colorIndividual{
+    var nombreEspanol: String
+    var nombreIngles: String
+    var color: Color
+
+    init(nombre: String, color: Color){
+        self.nombreEspanol = nombre
+        self.nombreIngles = nombreEspanol+"i"
+        self.color = color
+    }
+}
+
+
+
 struct VistaColores: View {
     @Binding var idiomaPulsado: Bool
+    @State var baseDatosColores: [colorIndividual] = [
+        colorIndividual(nombre: "rojo", color: Color(.sRGB, red: 1, green: 0, blue: 0, opacity: 1)),
+        colorIndividual(nombre: "amarillo", color: Color(.sRGB, red: 1, green: 1, blue: 0, opacity: 1)),
+        colorIndividual(nombre: "verde", color: Color.green),
+        colorIndividual(nombre: "marron", color: Color(.sRGB, red: 0.6, green: 0.4, blue: 0.2, opacity: 1)),
+        colorIndividual(nombre: "rosa", color: Color(.sRGB, red: 1, green: 0, blue: 0, opacity: 0.3)),
+        colorIndividual(nombre: "azul", color: Color(.sRGB, red: 0, green: 1, blue: 1, opacity: 1)),
+        colorIndividual(nombre: "negro", color: Color.black),
+        colorIndividual(nombre: "morado", color: Color.purple),
+        colorIndividual(nombre: "naranja", color: Color(.sRGB, red: 1, green: 0.5, blue: 0, opacity: 1))
+    ]
+
     var body: some View {
         VStack {
             HStack{
-                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: "rojo", nombreIngles: "rojoi", colorFondo: Color.red)
-                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: "azul", nombreIngles: "azuli", colorFondo: Color.blue)
+                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[0].nombreEspanol, nombreIngles:  self.baseDatosColores[0].nombreIngles, colorFondo:  self.baseDatosColores[0].color)
+                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[1].nombreEspanol, nombreIngles:  self.baseDatosColores[1].nombreIngles, colorFondo:  self.baseDatosColores[1].color)
 
             }
             HStack{
-                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: "verde", nombreIngles: "verdei", colorFondo: Color.green)
-                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: "marron", nombreIngles: "marroni", colorFondo: Color.yellow)
+                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[2].nombreEspanol, nombreIngles:  self.baseDatosColores[2].nombreIngles, colorFondo:  self.baseDatosColores[2].color)
+                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[3].nombreEspanol, nombreIngles:  self.baseDatosColores[3].nombreIngles, colorFondo:  self.baseDatosColores[3].color)
 
             }
             HStack{
-                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: "rosa", nombreIngles: "rosai", colorFondo: Color.pink, opacidad: 0.5)
+                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[4].nombreEspanol, nombreIngles:  self.baseDatosColores[4].nombreIngles, colorFondo:  self.baseDatosColores[4].color)
 
-                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: "negro", nombreIngles: "negroi", colorFondo: Color.black)
+                PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[5].nombreEspanol, nombreIngles:  self.baseDatosColores[5].nombreIngles, colorFondo:  self.baseDatosColores[5].color)
 
             }
             
             
             
+        }.onAppear{
+            self.baseDatosColores.shuffle()
         }
         
     }

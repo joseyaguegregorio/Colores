@@ -7,8 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6020B2724539C6D007474C2 /* VistaFormas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6020B2624539C6D007474C2 /* VistaFormas.swift */; };
 		A615BF012444D3BD0012C00A /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A615BF002444D3BD0012C00A /* PlaySound.swift */; };
+		A6197A102458137B005DC676 /* moradoi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6197A0F2458137B005DC676 /* moradoi.wav */; };
+		A6197A13245813F5005DC676 /* loboi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6197A11245813F4005DC676 /* loboi.wav */; };
+		A6197A14245813F5005DC676 /* lobo.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6197A12245813F5005DC676 /* lobo.wav */; };
+		A62AA5FB2452374B0001D8AC /* Animales.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62AA5FA2452374B0001D8AC /* Animales.swift */; };
 		A64EA26024485BBC007C76B4 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EA25F24485BBC007C76B4 /* Driver.swift */; };
+		A6702A8424570E8300393781 /* estrellai.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6224570E7D00393781 /* estrellai.wav */; };
+		A6702A8524570E8300393781 /* triangulo.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6324570E7D00393781 /* triangulo.wav */; };
+		A6702A8624570E8300393781 /* trianguloi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6424570E7D00393781 /* trianguloi.wav */; };
+		A6702A8724570E8300393781 /* rectanguloi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6524570E7D00393781 /* rectanguloi.wav */; };
+		A6702A8824570E8300393781 /* circuloi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6624570E7E00393781 /* circuloi.wav */; };
+		A6702A8924570E8300393781 /* rombo.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6724570E7E00393781 /* rombo.wav */; };
+		A6702A8A24570E8300393781 /* avispai.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6824570E7E00393781 /* avispai.wav */; };
+		A6702A8B24570E8300393781 /* avispa.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6924570E7E00393781 /* avispa.wav */; };
+		A6702A8C24570E8300393781 /* f.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6A24570E7F00393781 /* f.wav */; };
+		A6702A8D24570E8300393781 /* romboi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6B24570E7F00393781 /* romboi.wav */; };
+		A6702A8E24570E8300393781 /* corazon.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6C24570E7F00393781 /* corazon.wav */; };
+		A6702A8F24570E8300393781 /* ovaloi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6D24570E7F00393781 /* ovaloi.wav */; };
+		A6702A9024570E8300393781 /* luna.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6E24570E7F00393781 /* luna.wav */; };
+		A6702A9124570E8300393781 /* sofia.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A6F24570E7F00393781 /* sofia.wav */; };
+		A6702A9224570E8300393781 /* cuadrado.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7024570E8000393781 /* cuadrado.wav */; };
+		A6702A9324570E8300393781 /* formasi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7124570E8000393781 /* formasi.wav */; };
+		A6702A9424570E8300393781 /* a.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7224570E8000393781 /* a.wav */; };
+		A6702A9524570E8300393781 /* corazoni.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7324570E8000393781 /* corazoni.wav */; };
+		A6702A9624570E8300393781 /* formas.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7424570E8000393781 /* formas.wav */; };
+		A6702A9724570E8300393781 /* avejai.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7524570E8100393781 /* avejai.wav */; };
+		A6702A9824570E8300393781 /* i.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7624570E8100393781 /* i.wav */; };
+		A6702A9924570E8300393781 /* lunai.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7724570E8100393781 /* lunai.wav */; };
+		A6702A9A24570E8300393781 /* circulo.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7824570E8100393781 /* circulo.wav */; };
+		A6702A9B24570E8300393781 /* mariposai.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7924570E8100393781 /* mariposai.wav */; };
+		A6702A9C24570E8300393781 /* o.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7A24570E8100393781 /* o.wav */; };
+		A6702A9D24570E8300393781 /* flecha.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7B24570E8200393781 /* flecha.wav */; };
+		A6702A9E24570E8300393781 /* ovalo.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7C24570E8200393781 /* ovalo.wav */; };
+		A6702A9F24570E8300393781 /* rectangulo.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7D24570E8200393781 /* rectangulo.wav */; };
+		A6702AA024570E8300393781 /* s.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7E24570E8200393781 /* s.wav */; };
+		A6702AA124570E8300393781 /* aveja.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A7F24570E8200393781 /* aveja.wav */; };
+		A6702AA224570E8300393781 /* mariposa.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A8024570E8300393781 /* mariposa.wav */; };
+		A6702AA324570E8300393781 /* flechai.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A8124570E8300393781 /* flechai.wav */; };
+		A6702AA424570E8300393781 /* estrella.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A8224570E8300393781 /* estrella.wav */; };
+		A6702AA524570E8300393781 /* cuadradoi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6702A8324570E8300393781 /* cuadradoi.wav */; };
+		A689E3B52450AAD700A6F33F /* PlantillaAleatorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A689E3B42450AAD700A6F33F /* PlantillaAleatorio.swift */; };
 		A69729742450415A002F9320 /* monoi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A69728E524504149002F9320 /* monoi.wav */; };
 		A69729752450415A002F9320 /* cocodrilo.wav in Resources */ = {isa = PBXBuildFile; fileRef = A69728E624504149002F9320 /* cocodrilo.wav */; };
 		A69729762450415A002F9320 /* leon.wav in Resources */ = {isa = PBXBuildFile; fileRef = A69728E724504149002F9320 /* leon.wav */; };
@@ -67,7 +107,6 @@
 		A69729AB2450415A002F9320 /* tiburoni.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697291C2450414F002F9320 /* tiburoni.wav */; };
 		A69729AC2450415A002F9320 /* marron.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697291D24504150002F9320 /* marron.wav */; };
 		A69729AD2450415A002F9320 /* elefante.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697291E24504150002F9320 /* elefante.wav */; };
-		A69729AE2450415A002F9320 /* loboi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697291F24504150002F9320 /* loboi.wav */; };
 		A69729AF2450415A002F9320 /* ardilla.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697292024504150002F9320 /* ardilla.wav */; };
 		A69729B02450415A002F9320 /* pinguino.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697292124504150002F9320 /* pinguino.wav */; };
 		A69729B12450415A002F9320 /* delfin.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697292224504150002F9320 /* delfin.wav */; };
@@ -88,7 +127,6 @@
 		A69729C12450415A002F9320 /* tortugai.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697293224504152002F9320 /* tortugai.wav */; };
 		A69729C22450415A002F9320 /* rinoceronte.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697293324504152002F9320 /* rinoceronte.wav */; };
 		A69729C32450415A002F9320 /* azuli.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697293424504152002F9320 /* azuli.wav */; };
-		A69729C42450415A002F9320 /* lobo.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697293524504152002F9320 /* lobo.wav */; };
 		A69729C52450415A002F9320 /* numeros.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697293624504152002F9320 /* numeros.wav */; };
 		A69729C62450415A002F9320 /* vacai.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697293724504153002F9320 /* vacai.wav */; };
 		A69729C72450415A002F9320 /* gatoi.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697293824504153002F9320 /* gatoi.wav */; };
@@ -157,6 +195,7 @@
 		A69D5FCA244A6EFA00782309 /* PlantillaAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D5FC9244A6EFA00782309 /* PlantillaAnimal.swift */; };
 		A69D5FCC244A6F1500782309 /* VistaAnimales.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D5FCB244A6F1500782309 /* VistaAnimales.swift */; };
 		A69D5FCE244A6F2500782309 /* VistaNumeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D5FCD244A6F2500782309 /* VistaNumeros.swift */; };
+		A6B6FB8D24544C58006A78BB /* Prueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6FB8C24544C58006A78BB /* Prueba.swift */; };
 		A6D7AA6A244C98CA00C8F98B /* PlantillaVocales.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D7AA69244C98CA00C8F98B /* PlantillaVocales.swift */; };
 		A6D7AA6C244C98DA00C8F98B /* VistaVocales.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D7AA6B244C98DA00C8F98B /* VistaVocales.swift */; };
 		A6EF1E802444B7F4009777BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF1E7F2444B7F4009777BF /* AppDelegate.swift */; };
@@ -168,8 +207,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6020B2624539C6D007474C2 /* VistaFormas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaFormas.swift; sourceTree = "<group>"; };
 		A615BF002444D3BD0012C00A /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		A6197A0F2458137B005DC676 /* moradoi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = moradoi.wav; sourceTree = "<group>"; };
+		A6197A11245813F4005DC676 /* loboi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = loboi.wav; sourceTree = "<group>"; };
+		A6197A12245813F5005DC676 /* lobo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lobo.wav; sourceTree = "<group>"; };
+		A62AA5FA2452374B0001D8AC /* Animales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animales.swift; sourceTree = "<group>"; };
 		A64EA25F24485BBC007C76B4 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		A6702A6224570E7D00393781 /* estrellai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = estrellai.wav; sourceTree = "<group>"; };
+		A6702A6324570E7D00393781 /* triangulo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = triangulo.wav; sourceTree = "<group>"; };
+		A6702A6424570E7D00393781 /* trianguloi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trianguloi.wav; sourceTree = "<group>"; };
+		A6702A6524570E7D00393781 /* rectanguloi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rectanguloi.wav; sourceTree = "<group>"; };
+		A6702A6624570E7E00393781 /* circuloi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = circuloi.wav; sourceTree = "<group>"; };
+		A6702A6724570E7E00393781 /* rombo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rombo.wav; sourceTree = "<group>"; };
+		A6702A6824570E7E00393781 /* avispai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = avispai.wav; sourceTree = "<group>"; };
+		A6702A6924570E7E00393781 /* avispa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = avispa.wav; sourceTree = "<group>"; };
+		A6702A6A24570E7F00393781 /* f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f.wav; sourceTree = "<group>"; };
+		A6702A6B24570E7F00393781 /* romboi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = romboi.wav; sourceTree = "<group>"; };
+		A6702A6C24570E7F00393781 /* corazon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = corazon.wav; sourceTree = "<group>"; };
+		A6702A6D24570E7F00393781 /* ovaloi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ovaloi.wav; sourceTree = "<group>"; };
+		A6702A6E24570E7F00393781 /* luna.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = luna.wav; sourceTree = "<group>"; };
+		A6702A6F24570E7F00393781 /* sofia.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sofia.wav; sourceTree = "<group>"; };
+		A6702A7024570E8000393781 /* cuadrado.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cuadrado.wav; sourceTree = "<group>"; };
+		A6702A7124570E8000393781 /* formasi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = formasi.wav; sourceTree = "<group>"; };
+		A6702A7224570E8000393781 /* a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a.wav; sourceTree = "<group>"; };
+		A6702A7324570E8000393781 /* corazoni.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = corazoni.wav; sourceTree = "<group>"; };
+		A6702A7424570E8000393781 /* formas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = formas.wav; sourceTree = "<group>"; };
+		A6702A7524570E8100393781 /* avejai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = avejai.wav; sourceTree = "<group>"; };
+		A6702A7624570E8100393781 /* i.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = i.wav; sourceTree = "<group>"; };
+		A6702A7724570E8100393781 /* lunai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lunai.wav; sourceTree = "<group>"; };
+		A6702A7824570E8100393781 /* circulo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = circulo.wav; sourceTree = "<group>"; };
+		A6702A7924570E8100393781 /* mariposai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mariposai.wav; sourceTree = "<group>"; };
+		A6702A7A24570E8100393781 /* o.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = o.wav; sourceTree = "<group>"; };
+		A6702A7B24570E8200393781 /* flecha.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flecha.wav; sourceTree = "<group>"; };
+		A6702A7C24570E8200393781 /* ovalo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ovalo.wav; sourceTree = "<group>"; };
+		A6702A7D24570E8200393781 /* rectangulo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rectangulo.wav; sourceTree = "<group>"; };
+		A6702A7E24570E8200393781 /* s.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = s.wav; sourceTree = "<group>"; };
+		A6702A7F24570E8200393781 /* aveja.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aveja.wav; sourceTree = "<group>"; };
+		A6702A8024570E8300393781 /* mariposa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mariposa.wav; sourceTree = "<group>"; };
+		A6702A8124570E8300393781 /* flechai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flechai.wav; sourceTree = "<group>"; };
+		A6702A8224570E8300393781 /* estrella.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = estrella.wav; sourceTree = "<group>"; };
+		A6702A8324570E8300393781 /* cuadradoi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cuadradoi.wav; sourceTree = "<group>"; };
+		A689E3B42450AAD700A6F33F /* PlantillaAleatorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantillaAleatorio.swift; sourceTree = "<group>"; };
 		A69728E524504149002F9320 /* monoi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = monoi.wav; sourceTree = "<group>"; };
 		A69728E624504149002F9320 /* cocodrilo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cocodrilo.wav; sourceTree = "<group>"; };
 		A69728E724504149002F9320 /* leon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = leon.wav; sourceTree = "<group>"; };
@@ -228,7 +307,6 @@
 		A697291C2450414F002F9320 /* tiburoni.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tiburoni.wav; sourceTree = "<group>"; };
 		A697291D24504150002F9320 /* marron.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = marron.wav; sourceTree = "<group>"; };
 		A697291E24504150002F9320 /* elefante.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = elefante.wav; sourceTree = "<group>"; };
-		A697291F24504150002F9320 /* loboi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = loboi.wav; sourceTree = "<group>"; };
 		A697292024504150002F9320 /* ardilla.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ardilla.wav; sourceTree = "<group>"; };
 		A697292124504150002F9320 /* pinguino.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pinguino.wav; sourceTree = "<group>"; };
 		A697292224504150002F9320 /* delfin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = delfin.wav; sourceTree = "<group>"; };
@@ -249,7 +327,6 @@
 		A697293224504152002F9320 /* tortugai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tortugai.wav; sourceTree = "<group>"; };
 		A697293324504152002F9320 /* rinoceronte.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rinoceronte.wav; sourceTree = "<group>"; };
 		A697293424504152002F9320 /* azuli.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = azuli.wav; sourceTree = "<group>"; };
-		A697293524504152002F9320 /* lobo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lobo.wav; sourceTree = "<group>"; };
 		A697293624504152002F9320 /* numeros.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numeros.wav; sourceTree = "<group>"; };
 		A697293724504153002F9320 /* vacai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vacai.wav; sourceTree = "<group>"; };
 		A697293824504153002F9320 /* gatoi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gatoi.wav; sourceTree = "<group>"; };
@@ -318,6 +395,7 @@
 		A69D5FC9244A6EFA00782309 /* PlantillaAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantillaAnimal.swift; sourceTree = "<group>"; };
 		A69D5FCB244A6F1500782309 /* VistaAnimales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaAnimales.swift; sourceTree = "<group>"; };
 		A69D5FCD244A6F2500782309 /* VistaNumeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaNumeros.swift; sourceTree = "<group>"; };
+		A6B6FB8C24544C58006A78BB /* Prueba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba.swift; sourceTree = "<group>"; };
 		A6D7AA69244C98CA00C8F98B /* PlantillaVocales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantillaVocales.swift; sourceTree = "<group>"; };
 		A6D7AA6B244C98DA00C8F98B /* VistaVocales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaVocales.swift; sourceTree = "<group>"; };
 		A6EF1E7C2444B7F4009777BF /* Colores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colores.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -344,8 +422,45 @@
 		A615BEFF2444CE710012C00A /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				A6197A0F2458137B005DC676 /* moradoi.wav */,
+				A6702A7224570E8000393781 /* a.wav */,
+				A6702A7F24570E8200393781 /* aveja.wav */,
+				A6702A7524570E8100393781 /* avejai.wav */,
+				A6702A6924570E7E00393781 /* avispa.wav */,
+				A6702A6824570E7E00393781 /* avispai.wav */,
+				A6702A7824570E8100393781 /* circulo.wav */,
+				A6702A6624570E7E00393781 /* circuloi.wav */,
+				A6702A6C24570E7F00393781 /* corazon.wav */,
+				A6702A7324570E8000393781 /* corazoni.wav */,
+				A6702A7024570E8000393781 /* cuadrado.wav */,
+				A6702A8324570E8300393781 /* cuadradoi.wav */,
+				A6702A8224570E8300393781 /* estrella.wav */,
+				A6702A6224570E7D00393781 /* estrellai.wav */,
+				A6702A6A24570E7F00393781 /* f.wav */,
+				A6702A7B24570E8200393781 /* flecha.wav */,
+				A6702A8124570E8300393781 /* flechai.wav */,
+				A6702A7424570E8000393781 /* formas.wav */,
+				A6702A7124570E8000393781 /* formasi.wav */,
+				A6702A7624570E8100393781 /* i.wav */,
+				A6702A6E24570E7F00393781 /* luna.wav */,
+				A6702A7724570E8100393781 /* lunai.wav */,
+				A6702A8024570E8300393781 /* mariposa.wav */,
+				A6702A7924570E8100393781 /* mariposai.wav */,
+				A6702A7A24570E8100393781 /* o.wav */,
+				A6702A7C24570E8200393781 /* ovalo.wav */,
+				A6702A6D24570E7F00393781 /* ovaloi.wav */,
+				A6702A7D24570E8200393781 /* rectangulo.wav */,
+				A6702A6524570E7D00393781 /* rectanguloi.wav */,
+				A6702A6724570E7E00393781 /* rombo.wav */,
+				A6702A6B24570E7F00393781 /* romboi.wav */,
+				A6702A7E24570E8200393781 /* s.wav */,
+				A6702A6F24570E7F00393781 /* sofia.wav */,
+				A6702A6324570E7D00393781 /* triangulo.wav */,
+				A6702A6424570E7D00393781 /* trianguloi.wav */,
 				A697296924504159002F9320 /* amarillo.wav */,
 				A69729712450415A002F9320 /* amarilloi.wav */,
+				A6197A12245813F5005DC676 /* lobo.wav */,
+				A6197A11245813F4005DC676 /* loboi.wav */,
 				A69728F62450414B002F9320 /* animales.wav */,
 				A697296124504158002F9320 /* animalesi.wav */,
 				A697292024504150002F9320 /* ardilla.wav */,
@@ -420,8 +535,6 @@
 				A69728F52450414B002F9320 /* leoni.wav */,
 				A697291A2450414F002F9320 /* leopardo.wav */,
 				A697294624504154002F9320 /* leopardoi.wav */,
-				A697293524504152002F9320 /* lobo.wav */,
-				A697291F24504150002F9320 /* loboi.wav */,
 				A697291D24504150002F9320 /* marron.wav */,
 				A697296624504158002F9320 /* marroni.wav */,
 				A697294024504154002F9320 /* mono.wav */,
@@ -513,14 +626,18 @@
 				A6EF1E7F2444B7F4009777BF /* AppDelegate.swift */,
 				A6EF1E812444B7F4009777BF /* SceneDelegate.swift */,
 				A6EF1E832444B7F4009777BF /* ContentView.swift */,
+				A62AA5FA2452374B0001D8AC /* Animales.swift */,
 				A69D5FC5244A6CDA00782309 /* VistaColores.swift */,
 				A69D5FCD244A6F2500782309 /* VistaNumeros.swift */,
 				A69D5FCB244A6F1500782309 /* VistaAnimales.swift */,
 				A6D7AA6B244C98DA00C8F98B /* VistaVocales.swift */,
+				A6020B2624539C6D007474C2 /* VistaFormas.swift */,
+				A6B6FB8C24544C58006A78BB /* Prueba.swift */,
 				A6D7AA69244C98CA00C8F98B /* PlantillaVocales.swift */,
 				A69D5FC9244A6EFA00782309 /* PlantillaAnimal.swift */,
 				A69D5FC7244A6E9800782309 /* PlantillaNumero.swift */,
 				A69D5FC3244A6B6F00782309 /* PlantillaColor.swift */,
+				A689E3B42450AAD700A6F33F /* PlantillaAleatorio.swift */,
 				A615BF002444D3BD0012C00A /* PlaySound.swift */,
 				A64EA25F24485BBC007C76B4 /* Driver.swift */,
 				A6EF1E852444B7F5009777BF /* Assets.xcassets */,
@@ -603,6 +720,7 @@
 				A6972A002450415A002F9320 /* amarilloi.wav in Resources */,
 				A69729992450415A002F9320 /* galloi.wav in Resources */,
 				A69729982450415A002F9320 /* numerosi.wav in Resources */,
+				A6197A102458137B005DC676 /* moradoi.wav in Resources */,
 				A69729C12450415A002F9320 /* tortugai.wav in Resources */,
 				A69729F22450415A002F9320 /* gallina.wav in Resources */,
 				A69729A72450415A002F9320 /* cebrai.wav in Resources */,
@@ -627,32 +745,48 @@
 				A69729A42450415A002F9320 /* rana.wav in Resources */,
 				A69729F12450415A002F9320 /* cuatro.wav in Resources */,
 				A69729DD2450415A002F9320 /* serpientei.wav in Resources */,
+				A6702A9D24570E8300393781 /* flecha.wav in Resources */,
+				A6702A8724570E8300393781 /* rectanguloi.wav in Resources */,
 				A69729D42450415A002F9320 /* conejoi.wav in Resources */,
 				A69729D02450415A002F9320 /* blanco.wav in Resources */,
 				A69729E72450415A002F9320 /* osoi.wav in Resources */,
 				A6972A012450415A002F9320 /* tigrei.wav in Resources */,
+				A6702AA424570E8300393781 /* estrella.wav in Resources */,
 				A697298B2450415A002F9320 /* blancoi.wav in Resources */,
 				A69729E32450415A002F9320 /* camello.wav in Resources */,
+				A6702A8924570E8300393781 /* rombo.wav in Resources */,
+				A6702A8624570E8300393781 /* trianguloi.wav in Resources */,
 				A69729932450415A002F9320 /* pinguinoi.wav in Resources */,
+				A6702A8D24570E8300393781 /* romboi.wav in Resources */,
 				A69729EF2450415A002F9320 /* gallo.wav in Resources */,
 				A697299F2450415A002F9320 /* bufalo.wav in Resources */,
 				A69729E62450415A002F9320 /* oso.wav in Resources */,
+				A6702A8824570E8300393781 /* circuloi.wav in Resources */,
+				A6702AA524570E8300393781 /* cuadradoi.wav in Resources */,
+				A6702A8424570E8300393781 /* estrellai.wav in Resources */,
+				A6702A9C24570E8300393781 /* o.wav in Resources */,
+				A6702A9724570E8300393781 /* avejai.wav in Resources */,
 				A697299A2450415A002F9320 /* sietei.wav in Resources */,
+				A6702A9A24570E8300393781 /* circulo.wav in Resources */,
 				A69729B12450415A002F9320 /* delfin.wav in Resources */,
+				A6702AA224570E8300393781 /* mariposa.wav in Resources */,
 				A69729BB2450415A002F9320 /* negroi.wav in Resources */,
 				A69729FF2450415A002F9320 /* zorro.wav in Resources */,
-				A69729AE2450415A002F9320 /* loboi.wav in Resources */,
 				A69729852450415A002F9320 /* animales.wav in Resources */,
 				A697298F2450415A002F9320 /* perro.wav in Resources */,
+				A6197A14245813F5005DC676 /* lobo.wav in Resources */,
 				A69729C02450415A002F9320 /* once.wav in Resources */,
 				A6EF1E8C2444B7F5009777BF /* LaunchScreen.storyboard in Resources */,
 				A69729F52450415A002F9320 /* marroni.wav in Resources */,
 				A69729B72450415A002F9320 /* vaca.wav in Resources */,
+				A6702A8C24570E8300393781 /* f.wav in Resources */,
 				A69729D62450415A002F9320 /* ballena.wav in Resources */,
+				A6702A8524570E8300393781 /* triangulo.wav in Resources */,
 				A69729872450415A002F9320 /* hipopotamoi.wav in Resources */,
 				A69729E82450415A002F9320 /* cincoi.wav in Resources */,
 				A69729F82450415A002F9320 /* amarillo.wav in Resources */,
 				A697297A2450415A002F9320 /* rosai.wav in Resources */,
+				A6702A8E24570E8300393781 /* corazon.wav in Resources */,
 				A697299C2450415A002F9320 /* ochoi.wav in Resources */,
 				A69729E42450415A002F9320 /* dosi.wav in Resources */,
 				A69729CA2450415A002F9320 /* cabrai.wav in Resources */,
@@ -664,6 +798,7 @@
 				A69729CE2450415A002F9320 /* cero.wav in Resources */,
 				A69729FD2450415A002F9320 /* caballo.wav in Resources */,
 				A69729E12450415A002F9320 /* ballenai.wav in Resources */,
+				A6702A9224570E8300393781 /* cuadrado.wav in Resources */,
 				A697298A2450415A002F9320 /* ceroi.wav in Resources */,
 				A697298D2450415A002F9320 /* toro.wav in Resources */,
 				A697297E2450415A002F9320 /* cebra.wav in Resources */,
@@ -676,7 +811,9 @@
 				A697298E2450415A002F9320 /* verdei.wav in Resources */,
 				A6EF1E892444B7F5009777BF /* Preview Assets.xcassets in Resources */,
 				A69729DE2450415A002F9320 /* caballoi.wav in Resources */,
+				A6702A9324570E8300393781 /* formasi.wav in Resources */,
 				A69729E22450415A002F9320 /* iguana.wav in Resources */,
+				A6702A9E24570E8300393781 /* ovalo.wav in Resources */,
 				A69729942450415A002F9320 /* rinocerontei.wav in Resources */,
 				A69729842450415A002F9320 /* leoni.wav in Resources */,
 				A69729CD2450415A002F9320 /* nueve.wav in Resources */,
@@ -694,33 +831,45 @@
 				A69729B92450415A002F9320 /* cerdo.wav in Resources */,
 				A6EF1E862444B7F5009777BF /* Assets.xcassets in Resources */,
 				A69729BF2450415A002F9320 /* cinco.wav in Resources */,
+				A6702AA324570E8300393781 /* flechai.wav in Resources */,
 				A69729902450415A002F9320 /* uno.wav in Resources */,
+				A6702AA124570E8300393781 /* aveja.wav in Resources */,
 				A69729AC2450415A002F9320 /* marron.wav in Resources */,
-				A69729C42450415A002F9320 /* lobo.wav in Resources */,
+				A6702AA024570E8300393781 /* s.wav in Resources */,
 				A69729DA2450415A002F9320 /* koala.wav in Resources */,
 				A69729AB2450415A002F9320 /* tiburoni.wav in Resources */,
 				A69729822450415A002F9320 /* delfini.wav in Resources */,
+				A6702A8A24570E8300393781 /* avispai.wav in Resources */,
+				A6702A9124570E8300393781 /* sofia.wav in Resources */,
 				A69729F62450415A002F9320 /* rojo.wav in Resources */,
+				A6702A8F24570E8300393781 /* ovaloi.wav in Resources */,
 				A69729D52450415A002F9320 /* leopardoi.wav in Resources */,
 				A697298C2450415A002F9320 /* pajaro.wav in Resources */,
 				A69729832450415A002F9320 /* gorilai.wav in Resources */,
 				A69729F32450415A002F9320 /* pezi.wav in Resources */,
 				A69729972450415A002F9320 /* verde.wav in Resources */,
+				A6702A9F24570E8300393781 /* rectangulo.wav in Resources */,
 				A69729FC2450415A002F9320 /* negro.wav in Resources */,
 				A69729E92450415A002F9320 /* rojoi.wav in Resources */,
+				A6702A9524570E8300393781 /* corazoni.wav in Resources */,
 				A69729B02450415A002F9320 /* pinguino.wav in Resources */,
+				A6702A9B24570E8300393781 /* mariposai.wav in Resources */,
 				A69729C32450415A002F9320 /* azuli.wav in Resources */,
 				A69729882450415A002F9320 /* espanol.wav in Resources */,
 				A69729B52450415A002F9320 /* seisi.wav in Resources */,
 				A69729742450415A002F9320 /* monoi.wav in Resources */,
 				A69729FB2450415A002F9320 /* ranai.wav in Resources */,
 				A69729D32450415A002F9320 /* perroi.wav in Resources */,
+				A6702A9924570E8300393781 /* lunai.wav in Resources */,
 				A69729922450415A002F9320 /* jirafa.wav in Resources */,
+				A6702A9624570E8300393781 /* formas.wav in Resources */,
+				A6197A13245813F5005DC676 /* loboi.wav in Resources */,
 				A69729952450415A002F9320 /* unoi.wav in Resources */,
 				A69729DF2450415A002F9320 /* nuevei.wav in Resources */,
 				A69729AF2450415A002F9320 /* ardilla.wav in Resources */,
 				A69729E52450415A002F9320 /* cabra.wav in Resources */,
 				A69729C92450415A002F9320 /* cerdoi.wav in Resources */,
+				A6702A9424570E8300393781 /* a.wav in Resources */,
 				A69729792450415A002F9320 /* gato.wav in Resources */,
 				A69729862450415A002F9320 /* toroi.wav in Resources */,
 				A69729CC2450415A002F9320 /* elefantei.wav in Resources */,
@@ -728,8 +877,10 @@
 				A69729EA2450415A002F9320 /* tortuga.wav in Resources */,
 				A69729D22450415A002F9320 /* colores.wav in Resources */,
 				A697297C2450415A002F9320 /* dos.wav in Resources */,
+				A6702A9024570E8300393781 /* luna.wav in Resources */,
 				A69729912450415A002F9320 /* naranja.wav in Resources */,
 				A69729D92450415A002F9320 /* tigre.wav in Resources */,
+				A6702A9824570E8300393781 /* i.wav in Resources */,
 				A69729BA2450415A002F9320 /* caracol.wav in Resources */,
 				A697299B2450415A002F9320 /* gorila.wav in Resources */,
 				A69729C72450415A002F9320 /* gatoi.wav in Resources */,
@@ -737,6 +888,7 @@
 				A69729772450415A002F9320 /* tresi.wav in Resources */,
 				A69729F42450415A002F9320 /* iguanai.wav in Resources */,
 				A69729EC2450415A002F9320 /* tiburon.wav in Resources */,
+				A6702A8B24570E8300393781 /* avispa.wav in Resources */,
 				A69729752450415A002F9320 /* cocodrilo.wav in Resources */,
 				A69729D82450415A002F9320 /* conejo.wav in Resources */,
 				A697299E2450415A002F9320 /* jose.wav in Resources */,
@@ -755,12 +907,16 @@
 				A69D5FCE244A6F2500782309 /* VistaNumeros.swift in Sources */,
 				A6EF1E802444B7F4009777BF /* AppDelegate.swift in Sources */,
 				A69D5FC4244A6B6F00782309 /* PlantillaColor.swift in Sources */,
+				A62AA5FB2452374B0001D8AC /* Animales.swift in Sources */,
+				A6B6FB8D24544C58006A78BB /* Prueba.swift in Sources */,
 				A69D5FCA244A6EFA00782309 /* PlantillaAnimal.swift in Sources */,
+				A689E3B52450AAD700A6F33F /* PlantillaAleatorio.swift in Sources */,
 				A615BF012444D3BD0012C00A /* PlaySound.swift in Sources */,
 				A6EF1E822444B7F4009777BF /* SceneDelegate.swift in Sources */,
 				A69D5FCC244A6F1500782309 /* VistaAnimales.swift in Sources */,
 				A6D7AA6C244C98DA00C8F98B /* VistaVocales.swift in Sources */,
 				A6D7AA6A244C98CA00C8F98B /* PlantillaVocales.swift in Sources */,
+				A6020B2724539C6D007474C2 /* VistaFormas.swift in Sources */,
 				A69D5FC6244A6CDA00782309 /* VistaColores.swift in Sources */,
 				A6EF1E842444B7F4009777BF /* ContentView.swift in Sources */,
 				A64EA26024485BBC007C76B4 /* Driver.swift in Sources */,

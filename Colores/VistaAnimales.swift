@@ -10,21 +10,22 @@ import SwiftUI
 
 struct VistaAnimales: View {
     @Binding var idiomaPulsado: Bool
+    @EnvironmentObject var animales: baseDatosAnimales
     var body: some View {
         VStack {
             HStack{
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "lobo", nombreIngles: "loboi", imagenFondo: "lobo")
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "rana", nombreIngles: "ranai", imagenFondo: "rana")
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, animal: animales.arrayAnimales[1])
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, animal: animales.arrayAnimales[2])
 
             }
             HStack{
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "cebra", nombreIngles: "cebrai", imagenFondo: "cebra")
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "gorila", nombreIngles: "gorilai", imagenFondo: "gorila")
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, animal: animales.arrayAnimales[3])
+               PlantillaAnimal(idiomaPulsado: $idiomaPulsado, animal: animales.arrayAnimales[4])
 
             }
             HStack{
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "pinguino", nombreIngles: "pinguinoi", imagenFondo: "pinguino")
-                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, nombreEspanol: "elefante", nombreIngles: "elefantei", imagenFondo: "elefante")
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, animal: animales.arrayAnimales[5])
+                PlantillaAnimal(idiomaPulsado: $idiomaPulsado, animal: animales.arrayAnimales[6])
 
             }
 

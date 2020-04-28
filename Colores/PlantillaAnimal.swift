@@ -11,17 +11,14 @@ import SwiftUI
 struct PlantillaAnimal: View {
      @Binding var idiomaPulsado: Bool
 
-        var nombreEspanol: String
-        var nombreIngles: String
-        var imagenFondo: String
+        var animal: Animal
 
         var body: some View {
             Button(action: {
-                //Cada click cambiaria de idioma
-    //            self.idiomaPulsado.toggle()
-                playSound(sound: self.idiomaPulsado ? self.nombreEspanol : self.nombreIngles, type: "wav")
+
+                playSound(sound: self.idiomaPulsado ? self.animal.sonidoEspanol : self.animal.sonidoIngles, type: "wav")
             }) {
-                Image(imagenFondo).renderingMode(Image.TemplateRenderingMode?.init(Image.TemplateRenderingMode.original)).resizable().scaledToFit().clipShape(Circle())
+                Image(animal.nombreFotoAnimal).renderingMode(Image.TemplateRenderingMode?.init(Image.TemplateRenderingMode.original)).resizable().scaledToFit().clipShape(Circle())
                     .frame(width: 180, height: 180)
             }
 
