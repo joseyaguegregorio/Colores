@@ -235,7 +235,7 @@ struct ContentView: View {
             .tabItem {
                 VStack {
                     Image(systemName: "square.fill.on.circle.fill")
-                    Text(idiomaPulsadoT ? "Animales" : "Animals")
+                    Text(idiomaPulsadoT ? "Formas" : "Shapes")
                 }
             }
             .tag(4)

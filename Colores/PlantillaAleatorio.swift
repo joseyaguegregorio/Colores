@@ -17,7 +17,7 @@ struct PlantillaAleatorio: View {
 
 
 
-    
+
 
     var body: some View {
 
@@ -69,5 +69,6 @@ struct PlantillaAleatorio: View {
 //    }
 //}
 //
+
 
 
