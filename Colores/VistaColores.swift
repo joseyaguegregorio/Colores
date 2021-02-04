@@ -38,22 +38,32 @@ struct VistaColores: View {
 
     var body: some View {
         VStack {
+            Spacer()
             HStack{
+                Spacer()
                 PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[0].nombreEspanol, nombreIngles:  self.baseDatosColores[0].nombreIngles, colorFondo:  self.baseDatosColores[0].color)
+                Spacer()
                 PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[1].nombreEspanol, nombreIngles:  self.baseDatosColores[1].nombreIngles, colorFondo:  self.baseDatosColores[1].color)
-
+                Spacer()
             }
+            Spacer()
             HStack{
+                Spacer()
                 PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[2].nombreEspanol, nombreIngles:  self.baseDatosColores[2].nombreIngles, colorFondo:  self.baseDatosColores[2].color)
+                Spacer()
                 PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[3].nombreEspanol, nombreIngles:  self.baseDatosColores[3].nombreIngles, colorFondo:  self.baseDatosColores[3].color)
+                Spacer()
 
             }
+            Spacer()
             HStack{
+                Spacer()
                 PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[4].nombreEspanol, nombreIngles:  self.baseDatosColores[4].nombreIngles, colorFondo:  self.baseDatosColores[4].color)
-
+                Spacer()
                 PlantillaColor(idiomaPulsado: $idiomaPulsado, nombreEspanol: self.baseDatosColores[5].nombreEspanol, nombreIngles:  self.baseDatosColores[5].nombreIngles, colorFondo:  self.baseDatosColores[5].color)
-
+                Spacer()
             }
+            Spacer()
             
             
             

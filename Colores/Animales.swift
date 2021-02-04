@@ -66,7 +66,7 @@ class baseDatosAnimales: ObservableObject{
         Animal(nombreFotoAnimal: "ballena", sonidoEspanol: "ballena", sonidoIngles: "ballenai"),
         Animal(nombreFotoAnimal: "delfin", sonidoEspanol: "delfin", sonidoIngles: "delfini"),
         Animal(nombreFotoAnimal: "lagartija", sonidoEspanol: "lagartija", sonidoIngles: "lagartijai"),
-        Animal(nombreFotoAnimal: "cangrejo", sonidoEspanol: "cangrejo", sonidoIngles: "cangrejoi"),
+        Animal(nombreFotoAnimal: "cangrejo", sonidoEspanol: "cangrejo", sonidoIngles: "cangrejoi")
 
     ]
 }

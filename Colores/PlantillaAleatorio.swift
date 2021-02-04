@@ -14,6 +14,8 @@ struct PlantillaAleatorio: View {
     @Binding var idiomaPulsado2: Bool
     @EnvironmentObject var animales: baseDatosAnimales
     @State var contador: Int = 0;
+    
+
 
 
 
@@ -22,32 +24,40 @@ struct PlantillaAleatorio: View {
     var body: some View {
 
         Button(action: {
-
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0) {
+//                sleep(1)
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 0) {
                 playSound(sound: self.idiomaPulsado2 ? self.animales.arrayAnimales[(self.contador + 1) % (self.animales.arrayAnimales.count)].sonidoEspanol : self.animales.arrayAnimales[(self.contador + 1) % (self.animales.arrayAnimales.count)].sonidoIngles, type: "wav")
                 self.contador = self.contador + 1
-            }
+//            print("\(contador)button")
+//            }
+
 
 
 
 
 
         }) {
-            Image(animales.arrayAnimales[self.contador % (self.animales.arrayAnimales.count)].nombreFotoAnimal)
+
+            Image(animales.arrayAnimales[self.contador  % (self.animales.arrayAnimales.count)].nombreFotoAnimal)
                 .renderingMode(Image.TemplateRenderingMode?.init(Image.TemplateRenderingMode.original))
                 .resizable()
-                .scaledToFit()
                 .clipShape(Circle())
-                .frame(width: 350, height: 350)
+//                .frame(width: 350, height: 350)
+                .padding(10)
+                .scaledToFit()
 
             //                    .background(Color.red)
 
 
 
         }.onAppear{
-            self.animales.arrayAnimales.shuffle()
-            playSound(sound: self.idiomaPulsado2 ? self.animales.arrayAnimales[self.contador % (self.animales.arrayAnimales.count)].sonidoEspanol : self.animales.arrayAnimales[self.contador % (self.animales.arrayAnimales.count)].sonidoIngles, type: "wav")
+
+            self.contador = 0
+//            self.animales.arrayAnimales.shuffle()
+            playSound(sound: self.idiomaPulsado2 ? self.animales.arrayAnimales[self.contador % (self.animales.arrayAnimales.count)].sonidoEspanol : self.animales.arrayAnimales[(self.contador) % (self.animales.arrayAnimales.count)].sonidoIngles, type: "wav")
+
         }
+
 
     }
 

@@ -24,9 +24,7 @@ struct ContentView: View {
 
 
             VStack{
-                Spacer()
                 VistaColores(idiomaPulsado: $idiomaPulsadoT).onAppear{
-                    print("1")
                 }
                 HStack{
                     Button(action: {
@@ -38,25 +36,13 @@ struct ContentView: View {
                             .animation(.easeInOut(duration: 1.0))
                             .font(.system(size:50))
                             .offset(x: idiomaPulsadoT ? -140 : 140)
-                            .offset(x: 0, y: -19)
-                            //Lo corrijo por el desfase del avion en esta vista
-                            .offset(x: idiomaPulsadoT ? 4 : 0, y: 8)
                             .padding(.horizontal,idiomaPulsadoT ? 170 : 170)
-                            .padding(.top, 40)
-                            .foregroundColor(Color.black)
                             .opacity(0.7)
-                        //                            .background(Color.red)
-                    }
-                    if idiomaPulsadoT==true{
-                        Spacer()
                     }
                 }
-                Spacer()
-            }.padding(10).tabItem {
+            }.tabItem {
                 VStack {
-                    
                     Image(systemName: "paintbrush.fill")
-
                     Text(idiomaPulsadoT ? "Colores" : "Colors")
                 }
             }.tag(0)
@@ -73,7 +59,7 @@ struct ContentView: View {
 
             VStack{
                 VistaNumeros(idiomaPulsado: $idiomaPulsadoT)
-                    .offset(x: 0, y: 60)
+
                 HStack{
 
                     Button(action: {
@@ -85,12 +71,8 @@ struct ContentView: View {
                             .animation(.easeInOut(duration: 1.0))
                             .font(.system(size:50))
                             .offset(x: idiomaPulsadoT ? -140 : 140)
-                            .offset(x: 0, y: -19)
                             .padding(.horizontal,idiomaPulsadoT ? 170 : 170)
-                            .padding(.top, 40)
-                            .foregroundColor(Color.black)
                             .opacity(0.7)
-                        //                            .background(Color.red)
                     }
                 }
             }
@@ -102,9 +84,7 @@ struct ContentView: View {
                 }
             }
             .tag(1)
-            .onAppear{
-                self.animales.arrayAnimales.shuffle()
-            }
+
 
 
 
@@ -128,12 +108,8 @@ struct ContentView: View {
                             .animation(.easeInOut(duration: 1.0))
                             .font(.system(size:50))
                             .offset(x: idiomaPulsadoT ? -140 : 140)
-                            .offset(x: 0, y: -19)
                             .padding(.horizontal,idiomaPulsadoT ? 170 : 170)
-                            .padding(.top, 40)
-                            .foregroundColor(Color.black)
                             .opacity(0.7)
-                        //                        .background(Color.red)
                     }
                 }
             }
@@ -146,7 +122,9 @@ struct ContentView: View {
             }
             .tag(2)
             .onAppear{
-                self.animales.arrayAnimales.shuffle()
+                //Si se modifica un observableObject self.animales.arrayAnimales, este hace que el onApear de la vista PlantillaAleatorio se ejecute, no tiene sentido pero se ejecuta el Onappear de una vista que no ha sido llamada en este caso PlantillaAleatorio
+//                self.animales.arrayAnimales.shuffle()
+                
             }
 
 
@@ -175,12 +153,8 @@ struct ContentView: View {
                             .animation(.easeInOut(duration: 1.0))
                             .font(.system(size:50))
                             .offset(x: idiomaPulsadoT ? -140 : 140)
-                            .offset(x: 0, y: -19)
                             .padding(.horizontal,idiomaPulsadoT ? 170 : 170)
-                            .padding(.top, 40)
-                            .foregroundColor(Color.black)
                             .opacity(0.7)
-                        //                        .background(Color.red)
                     }
                 }
 
@@ -194,9 +168,7 @@ struct ContentView: View {
                 }
             }
             .tag(3)
-            .onAppear{
-                self.animales.arrayAnimales.shuffle()
-            }
+
 
 
             
@@ -220,12 +192,10 @@ struct ContentView: View {
                             .animation(.easeInOut(duration: 1.0))
                             .font(.system(size:50))
                             .offset(x: idiomaPulsadoT ? -140 : 140)
-                            .offset(x: 0.2, y: -26.4)
                             .padding(.horizontal,idiomaPulsadoT ? 170 : 170)
-                            .padding(.top, 40)
-                            .foregroundColor(Color.black)
                             .opacity(0.7)
-                        //                        .background(Color.red)
+//                            .background(Color.red)
+
                     }
                 }
 

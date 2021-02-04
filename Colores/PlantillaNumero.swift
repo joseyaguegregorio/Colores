@@ -10,9 +10,8 @@ import SwiftUI
 
 struct PlantillaNumero: View {
     @Binding var idiomaPulsado: Bool
-
-        var nombreEspanol: String
-        var nombreIngles: String
+    var nombreEspanol: String
+    var nombreIngles: String
     var colorFondo: Color = Color.gray
     var opacidad: Double = 0.1
     var numero: String
@@ -26,17 +25,18 @@ struct PlantillaNumero: View {
 
 
             }) {
-                ZStack{
-                    Circle().fill(colorFondo).opacity(opacidad).scaledToFit()
-                    Text(numero).font(.system(size: 70)).foregroundColor(.black)
+                VStack{
+                    Spacer()
+                    ZStack{
+                        Circle().fill(colorFondo).opacity(opacidad).scaledToFit()
+                        Text(numero).font(.system(size: 70)).foregroundColor(.black)
+                        }
+    //                .frame(width: 120, height: 120)
+    //                 .padding(.horizontal, -2)
+                    Spacer()
+                }
+                }
 
-
-                    }
-                .frame(width: 120, height: 120)
-                 .padding(.horizontal, -2)
-
-
-            }
 
         }
     }

@@ -26,7 +26,11 @@ struct PlantillaColor: View {
 
         }) {
             ZStack{
-                Circle().fill(colorFondo).opacity(opacidad).frame(width: 180, height: 190)
+                Circle()
+                    .fill(colorFondo)
+                    .opacity(opacidad)
+//                    .frame(width: 180, height: 190)
+                    .scaledToFit()
             }
 
         }

@@ -19,7 +19,8 @@ struct PlantillaAnimal: View {
                 playSound(sound: self.idiomaPulsado ? self.animal.sonidoEspanol : self.animal.sonidoIngles, type: "wav")
             }) {
                 Image(animal.nombreFotoAnimal).renderingMode(Image.TemplateRenderingMode?.init(Image.TemplateRenderingMode.original)).resizable().scaledToFit().clipShape(Circle())
-                    .frame(width: 180, height: 180)
+//                    .frame(width: 180, height: 180)
+                    .scaledToFit()
             }
 
 

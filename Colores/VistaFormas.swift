@@ -23,7 +23,7 @@ struct forma {
 struct VistaFormas: View {
     @Binding var idiomaPulsado: Bool
     @State var tamanoFrameHorizontal: CGFloat = 180
-    @State var tamano: CGFloat = 158
+    @State var tamano: CGFloat = 150
     @State var paddingvertical: CGFloat  = 43
 //    @State var paddinghorizontal: CGFloat  = 0
     @State var baseDatosFormas: [forma] = [
@@ -40,86 +40,93 @@ struct VistaFormas: View {
 
 
     var body: some View {
-        VStack(alignment: .center) {
-            
-            HStack (alignment: .center){
+        VStack {
+            Spacer()
+            HStack {
+                Spacer()
                 Button(action: {
 
                     playSound(sound: self.idiomaPulsado ? self.baseDatosFormas[0].nombreaudio : self.baseDatosFormas[0].nombreaudio+"i", type: "wav")
                 }) {
                     Image(systemName: self.baseDatosFormas[0].nombre)
+                        .resizable()
+                        .scaledToFit()
                         .foregroundColor(self.baseDatosFormas[0].color)
-                        .font(.system(size: tamano))
-                        .padding(.vertical,paddingvertical)
-                        .frame(width: tamanoFrameHorizontal,alignment: .center)
-                    //                        .padding(.horizontal,paddinghorizontal)
+
                 }
+
+
+                Spacer()
                 Button(action: {
 
                     playSound(sound: self.idiomaPulsado ? self.baseDatosFormas[1].nombreaudio : self.baseDatosFormas[1].nombreaudio+"i", type: "wav")
                 }) {
                     Image(systemName: self.baseDatosFormas[1].nombre)
+                        .resizable()
+                        .scaledToFit()
                         .foregroundColor(self.baseDatosFormas[1].color)
-                        .font(.system(size: tamano))
-                        .padding(.vertical,paddingvertical)
-                        .frame(width: tamanoFrameHorizontal,alignment: .center)
-                    //                        .padding(.horizontal,paddinghorizontal)
-                }
-            }.frame(width: 400,  alignment: .center)
-            
-            HStack(alignment: .center) {
 
+                }
+
+                Spacer()
+            }
+            Spacer()
+            
+            HStack {
+                Spacer()
                 Button(action: {
 
                     playSound(sound: self.idiomaPulsado ? self.baseDatosFormas[2].nombreaudio : self.baseDatosFormas[2].nombreaudio+"i", type: "wav")
                 }) {
                     Image(systemName: self.baseDatosFormas[2].nombre)
+                        .resizable()
+                        .scaledToFit()
                         .foregroundColor(self.baseDatosFormas[2].color)
-                        .font(.system(size: tamano))
-                        .padding(.vertical,paddingvertical)
-                        .frame(width: tamanoFrameHorizontal,alignment: .center)
-                    //                        .padding(.horizontal,paddinghorizontal)
+
                 }
 
+                Spacer()
                 Button(action: {
 
                     playSound(sound: self.idiomaPulsado ? self.baseDatosFormas[3].nombreaudio : self.baseDatosFormas[3].nombreaudio+"i", type: "wav")
                 }) {
                     Image(systemName: self.baseDatosFormas[3].nombre)
+                        .resizable()
+                        .scaledToFit()
                         .foregroundColor(self.baseDatosFormas[3].color)
-                        .font(.system(size: tamano))
-                        .padding(.vertical,paddingvertical)
-                        .frame(width: tamanoFrameHorizontal,alignment: .center)
-                    //                        .padding(.horizontal,paddinghorizontal)
-
                 }
-                
-            }.frame(width: 300,  alignment: .center)
-            HStack (alignment: .center){
+
+                Spacer()
+            }
+            Spacer()
+            HStack{
+                Spacer()
                 Button(action: {
 
                     playSound(sound: self.idiomaPulsado ? self.baseDatosFormas[4].nombreaudio : self.baseDatosFormas[4].nombreaudio+"i", type: "wav")
                 }) {
                     Image(systemName: self.baseDatosFormas[4].nombre)
+                        .resizable()
+                        .scaledToFit()
                         .foregroundColor(self.baseDatosFormas[4].color)
-                        .font(.system(size: tamano))
-                        .padding(.vertical,paddingvertical)
-                        .frame(width: tamanoFrameHorizontal,alignment: .center)
-                    //                        .padding(.horizontal,paddinghorizontal)
                 }
+
+                Spacer()
                 Button(action: {
 
                     playSound(sound: self.idiomaPulsado ? self.baseDatosFormas[5].nombreaudio : self.baseDatosFormas[5].nombreaudio+"i", type: "wav")
                 }) {
                     Image(systemName: self.baseDatosFormas[5].nombre)
+                        .resizable()
+                        .scaledToFit()
                         .foregroundColor(self.baseDatosFormas[5].color)
-                        .font(.system(size: tamano))
-                        .padding(.vertical,paddingvertical)
-                        .frame(width: tamanoFrameHorizontal,alignment: .center)
-                    //                        .padding(.horizontal,paddinghorizontal)
                 }
-            }.frame(width: 300,  alignment: .center)
-//            Spacer()
+
+
+
+                Spacer()
+            }
+            Spacer()
         }.onAppear{
             self.baseDatosFormas.shuffle()
         }
